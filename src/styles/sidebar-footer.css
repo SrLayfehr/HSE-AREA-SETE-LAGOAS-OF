@@ -1,0 +1,211 @@
+body{background-color: #242424;
+     /*background-image: url(/src/assets/Backgrounds/home\ page.png);
+    background-size: cover; /* A imagem cobre todo o elemento */
+         background-image: url(/src/assets/Backgrounds/Backgroun-t1.png);
+    background-size:cover; /* A imagem cobre todo o elemento */
+    background-repeat: no-repeat; /* A imagem não se repete */
+    background-position: center; /* Centraliza a imagem */
+    height: 100%;
+
+    font-family: var(--font-dm-sans);
+}
+
+.sidebar{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    padding:12px;
+    width:300px;
+}
+
+.sidebar__navigation{
+    background-color: #121212;
+    border-radius:8px;
+    padding:16px 0 0 16px;
+}
+
+.logo{
+    background: #121212;
+    display:flex;
+    border-radius:8px ;
+    padding:16px 0 0 16px;
+}
+.subtitle_logo{
+    margin-top: 10px;
+    margin-right: 16px;
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+
+
+}
+
+.sidebar__navigation .logo img{
+    width:164px;
+}
+
+.sidebar nav ul{
+    margin-top: 20px;
+    padding:0 20px 10px 0px;
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.library{
+    background-color:#121212;
+    border-radius:8px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding:4px 8px;
+    color:#b3b3b3;
+    font-weight: 600;
+    font-size:14px;
+    margin-top: 10px;
+
+}
+
+.library .library__content{
+    display:flex;
+    justify-content: space-between;
+}
+
+.library .library__button{
+    display:flex;
+    margin-right: 10px;
+    color:#b3b3b3;
+    background-color: transparent;
+    border:0px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding:20px 10px;
+}
+.inicio-container {
+    background-color:#121212;
+    border-radius:8px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding:4px 8px;
+    color:#b3b3b3;
+    font-weight: 600;
+    font-size:24px;
+    margin-top: 10px;
+    
+  } 
+
+  
+  .sidebar .ini_button {
+    display:flex;
+    margin-right: 10px;
+    color:#b3b3b3;
+    background-color: transparent;
+    border:0px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding:0px 0px;
+  }
+  .sidebar .ini_button .fa {
+    display:flex;
+    justify-content: space-between;
+    font-size:20px;
+    font-weight: 300;
+    color:#b3b3b3;
+    margin-right: 10px;
+    padding-right:8px;
+  }
+
+
+  
+
+.library .library__button .fa{
+    font-size:20px;
+    font-weight: 300;
+    color:#b3b3b3;
+    margin-right: 10px;
+    padding-right:8px;
+}
+
+.library .library__content .fa-plus{
+    margin: 24px 10px;
+}
+
+.section-playlist{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap:20px;
+    background-color: #242424;
+    color:#b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding:16px 20px;
+    border-radius:10px;
+}
+
+.section-playlist .section-playlist__content{
+    display:flex;
+    flex-direction: column;
+}
+
+.section-playlist__content .text{
+    padding-bottom:14px;
+    color:#FFF;
+}
+
+.section-playlist__content .title{
+    font-weight: 700;
+}
+
+.section-playlist__content .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-playlist__content .section-playlist__button{
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+    color:#000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration:none;
+    text-transform: none;
+    padding:10px;
+    margin-top: 12px;
+    border:0;
+    width: 113px;
+}
+
+
+.languages .languages__button{
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    color:#FFF;
+    font-weight: bold;
+    cursor:pointer;
+    width: 170px;
+    margin:8px;
+    padding:8px;
+    border-radius:20px;
+}
